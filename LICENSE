@@ -1,14 +1,14 @@
 Copyright (c) 2026 ToolsAtZero. All rights reserved.
 
-Proprietary License - ToolsAtZero.com
+License - ToolsAtZero.com
 
-This software and associated documentation files (the "Software") are the proprietary property of ToolsAtZero.
+This software and associated documentation files (the "Software") are the property of ToolsAtZero.
 
-Permission is hereby granted to view the source code of this Software for educational and reference purposes only.
+Permission is hereby granted to view the source code, download, and self-host the Software strictly for personal, non-commercial use. 
 
-Strictly prohibited:
-1. Hosting, copying, or redistributing the Software, in whole or in part, on any public or private server or website.
-2. Modifying the Software for any commercial use, redistribution, or deployment.
-3. Using the Software or any portion thereof to host a competing service.
+Strictly Prohibited:
+1. Commercial Use: You may not use the Software to generate revenue, run advertisements, or charge for access.
+2. Competing Services: You may not host or deploy the Software on a publicly accessible domain to offer a competing service to ToolsAtZero.com.
+3. Redistribution: You may not resell, redistribute, or repackage the Software, in whole or in part, modified or unmodified.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -11,6 +11,7 @@ const displayDescription = "Free convert standard Word documents (.docx) to high
 export const metadata: Metadata = {
   title: "Free Word to PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free word to pdf","word to pdf online","free word to pdf online","word to pdf tool","client-side word to pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Word to PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

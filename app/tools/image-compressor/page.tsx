@@ -11,6 +11,7 @@ const displayDescription = "Free compress JPEG, PNG, and WebP files client-side 
 export const metadata: Metadata = {
   title: "Free Image Compressor Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free image compressor","image compressor online","free image compressor online","image compressor tool","client-side image compressor","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Image Compressor Online | 100% Private | ToolsAtZero",
     description: displayDescription,

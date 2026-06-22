@@ -11,6 +11,7 @@ const displayDescription = "Free convert slide presentation formats (.pptx) to s
 export const metadata: Metadata = {
   title: "Free PowerPoint to PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free powerpoint to pdf","powerpoint to pdf online","free powerpoint to pdf online","powerpoint to pdf tool","client-side powerpoint to pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free PowerPoint to PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

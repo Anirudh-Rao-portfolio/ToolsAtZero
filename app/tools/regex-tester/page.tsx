@@ -11,6 +11,7 @@ const displayDescription = "Free test regular expressions with syntax highlights
 export const metadata: Metadata = {
   title: "Free RegEx Tester Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free regex tester","regex tester online","free regex tester online","regex tester tool","client-side regex tester","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free RegEx Tester Online | 100% Private | ToolsAtZero",
     description: displayDescription,

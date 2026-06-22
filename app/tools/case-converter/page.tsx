@@ -11,6 +11,7 @@ const displayDescription = "Free convert text camelCase, snake_case, UPPERCASE, 
 export const metadata: Metadata = {
   title: "Free Advanced Case Converter Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free advanced case converter","advanced case converter online","free advanced case converter online","advanced case converter tool","client-side advanced case converter","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Advanced Case Converter Online | 100% Private | ToolsAtZero",
     description: displayDescription,

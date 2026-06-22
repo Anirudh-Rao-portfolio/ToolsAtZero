@@ -11,6 +11,7 @@ const displayDescription = "Free compile PNG, JPG, and webp images into a clean 
 export const metadata: Metadata = {
   title: "Free Image to PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free image to pdf","image to pdf online","free image to pdf online","image to pdf tool","client-side image to pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Image to PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

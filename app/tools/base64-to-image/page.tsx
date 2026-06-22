@@ -11,6 +11,7 @@ const displayDescription = "Free render Base64 strings into visual images and do
 export const metadata: Metadata = {
   title: "Free Base64 to Image Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free base64 to image","base64 to image online","free base64 to image online","base64 to image tool","client-side base64 to image","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Base64 to Image Online | 100% Private | ToolsAtZero",
     description: displayDescription,

@@ -11,6 +11,7 @@ const displayDescription = "Free generate mockup paragraphs, headings, and place
 export const metadata: Metadata = {
   title: "Free Lorem Ipsum Generator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free lorem ipsum generator","lorem ipsum generator online","free lorem ipsum generator online","lorem ipsum generator tool","client-side lorem ipsum generator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Lorem Ipsum Generator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

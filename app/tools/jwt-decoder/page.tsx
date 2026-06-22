@@ -11,6 +11,7 @@ const displayDescription = "Free inspect JSON Web Tokens (JWT) payload, headers,
 export const metadata: Metadata = {
   title: "Free JWT Decoder Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free jwt decoder","jwt decoder online","free jwt decoder online","jwt decoder tool","client-side jwt decoder","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free JWT Decoder Online | 100% Private | ToolsAtZero",
     description: displayDescription,

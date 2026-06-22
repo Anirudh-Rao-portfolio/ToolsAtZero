@@ -11,6 +11,7 @@ const displayDescription = "Free add text stamp watermarks over your PDF sheets 
 export const metadata: Metadata = {
   title: "Free Add Watermark Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free add watermark","add watermark online","free add watermark online","add watermark tool","client-side add watermark","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Add Watermark Online | 100% Private | ToolsAtZero",
     description: displayDescription,

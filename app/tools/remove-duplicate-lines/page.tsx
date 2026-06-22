@@ -11,6 +11,7 @@ const displayDescription = "Free filter duplicate lines out of list arrays in br
 export const metadata: Metadata = {
   title: "Free Remove Duplicate Lines Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free remove duplicate lines","remove duplicate lines online","free remove duplicate lines online","remove duplicate lines tool","client-side remove duplicate lines","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Remove Duplicate Lines Online | 100% Private | ToolsAtZero",
     description: displayDescription,

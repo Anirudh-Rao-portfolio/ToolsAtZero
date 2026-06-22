@@ -11,6 +11,7 @@ const displayDescription = "Free minify HTML pages by stripping whitespace chara
 export const metadata: Metadata = {
   title: "Free HTML Minifier Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free html minifier","html minifier online","free html minifier online","html minifier tool","client-side html minifier","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free HTML Minifier Online | 100% Private | ToolsAtZero",
     description: displayDescription,

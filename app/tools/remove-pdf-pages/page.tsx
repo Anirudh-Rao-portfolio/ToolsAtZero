@@ -11,6 +11,7 @@ const displayDescription = "Free delete unnecessary pages from a PDF document lo
 export const metadata: Metadata = {
   title: "Free Remove PDF Pages Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free remove pdf pages","remove pdf pages online","free remove pdf pages online","remove pdf pages tool","client-side remove pdf pages","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Remove PDF Pages Online | 100% Private | ToolsAtZero",
     description: displayDescription,

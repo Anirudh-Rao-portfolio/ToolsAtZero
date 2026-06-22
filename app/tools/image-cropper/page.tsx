@@ -11,6 +11,7 @@ const displayDescription = "Free crop local photos and adjust boundary coordinat
 export const metadata: Metadata = {
   title: "Free Image Cropper Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free image cropper","image cropper online","free image cropper online","image cropper tool","client-side image cropper","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Image Cropper Online | 100% Private | ToolsAtZero",
     description: displayDescription,

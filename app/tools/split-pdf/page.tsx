@@ -11,6 +11,7 @@ const displayDescription = "Free divide PDF documents into separate pages or cus
 export const metadata: Metadata = {
   title: "Free Split PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free split pdf","split pdf online","free split pdf online","split pdf tool","client-side split pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Split PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

@@ -11,6 +11,7 @@ const displayDescription = "Free convert PDF sheets to PNG/JPG image files clien
 export const metadata: Metadata = {
   title: "Free PDF to Image Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free pdf to image","pdf to image online","free pdf to image online","pdf to image tool","client-side pdf to image","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free PDF to Image Online | 100% Private | ToolsAtZero",
     description: displayDescription,

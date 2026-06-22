@@ -11,6 +11,7 @@ const displayDescription = "Free generate SEO-optimized HTML header meta tag blo
 export const metadata: Metadata = {
   title: "Free Meta Tag Generator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free meta tag generator","meta tag generator online","free meta tag generator online","meta tag generator tool","client-side meta tag generator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Meta Tag Generator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

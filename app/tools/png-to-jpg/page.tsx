@@ -11,6 +11,7 @@ const displayDescription = "Free convert PNG images to JPEG format with custom q
 export const metadata: Metadata = {
   title: "Free PNG to JPG Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free png to jpg","png to jpg online","free png to jpg online","png to jpg tool","client-side png to jpg","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free PNG to JPG Online | 100% Private | ToolsAtZero",
     description: displayDescription,

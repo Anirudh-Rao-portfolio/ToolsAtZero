@@ -11,6 +11,7 @@ const displayDescription = "Free number PDF pages sequentially with custom posit
 export const metadata: Metadata = {
   title: "Free Add Page Numbers Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free add page numbers","add page numbers online","free add page numbers online","add page numbers tool","client-side add page numbers","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Add Page Numbers Online | 100% Private | ToolsAtZero",
     description: displayDescription,

@@ -11,6 +11,7 @@ const displayDescription = "Free analyze word counts, reading speeds, sentence s
 export const metadata: Metadata = {
   title: "Free Word Counter Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free word counter","word counter online","free word counter online","word counter tool","client-side word counter","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Word Counter Online | 100% Private | ToolsAtZero",
     description: displayDescription,

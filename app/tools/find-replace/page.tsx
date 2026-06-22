@@ -11,6 +11,7 @@ const displayDescription = "Free search text streams using string search or rege
 export const metadata: Metadata = {
   title: "Free Find & Replace Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free find & replace","find & replace online","free find & replace online","find & replace tool","client-side find & replace","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Find & Replace Online | 100% Private | ToolsAtZero",
     description: displayDescription,

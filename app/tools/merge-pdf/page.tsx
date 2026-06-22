@@ -11,6 +11,7 @@ const displayDescription = "Free combine multiple PDF documents into a single or
 export const metadata: Metadata = {
   title: "Free Merge PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free merge pdf","merge pdf online","free merge pdf online","merge pdf tool","client-side merge pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Merge PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

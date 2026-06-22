@@ -11,6 +11,7 @@ const displayDescription = "Free encode special characters to HTML entities and 
 export const metadata: Metadata = {
   title: "Free HTML Entity Encoder Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free html entity encoder","html entity encoder online","free html entity encoder online","html entity encoder tool","client-side html entity encoder","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free HTML Entity Encoder Online | 100% Private | ToolsAtZero",
     description: displayDescription,

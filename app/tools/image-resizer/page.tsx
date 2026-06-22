@@ -11,6 +11,7 @@ const displayDescription = "Free adjust image heights and widths using local can
 export const metadata: Metadata = {
   title: "Free Image Resizer Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free image resizer","image resizer online","free image resizer online","image resizer tool","client-side image resizer","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Image Resizer Online | 100% Private | ToolsAtZero",
     description: displayDescription,

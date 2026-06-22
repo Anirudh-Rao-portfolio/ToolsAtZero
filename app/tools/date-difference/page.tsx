@@ -11,6 +11,7 @@ const displayDescription = "Free compute the number of years, months, and days b
 export const metadata: Metadata = {
   title: "Free Date Difference Calculator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free date difference calculator","date difference calculator online","free date difference calculator online","date difference calculator tool","client-side date difference calculator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Date Difference Calculator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

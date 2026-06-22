@@ -11,6 +11,7 @@ const displayDescription = "Free create search engine crawler instruction sitema
 export const metadata: Metadata = {
   title: "Free Robots.txt Generator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free robots.txt generator","robots.txt generator online","free robots.txt generator online","robots.txt generator tool","client-side robots.txt generator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Robots.txt Generator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

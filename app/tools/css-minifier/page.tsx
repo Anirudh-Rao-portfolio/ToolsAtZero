@@ -11,6 +11,7 @@ const displayDescription = "Free compress CSS stylesheets by removing spacing ru
 export const metadata: Metadata = {
   title: "Free CSS Minifier Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free css minifier","css minifier online","free css minifier online","css minifier tool","client-side css minifier","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free CSS Minifier Online | 100% Private | ToolsAtZero",
     description: displayDescription,

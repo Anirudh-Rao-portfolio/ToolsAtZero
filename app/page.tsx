@@ -11,12 +11,13 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const pdfTools = tools.filter((t) => t.category === "pdf");
-  const developerTools = tools.filter((t) => t.category === "developer");
-  const officeTools = tools.filter((t) => t.category === "office");
-  const imageTools = tools.filter((t) => t.category === "image");
-  const webTools = tools.filter((t) => t.category === "web");
-  const timeTools = tools.filter((t) => t.category === "time");
+  const activeTools = tools.filter((t) => t.isReady);
+  const pdfTools = activeTools.filter((t) => t.category === "pdf");
+  const developerTools = activeTools.filter((t) => t.category === "developer");
+  const officeTools = activeTools.filter((t) => t.category === "office");
+  const imageTools = activeTools.filter((t) => t.category === "image");
+  const webTools = activeTools.filter((t) => t.category === "web");
+  const timeTools = activeTools.filter((t) => t.category === "time");
 
   const categories = [
     { slug: "pdf", title: "Free PDF Suite", count: pdfTools.length, list: pdfTools },

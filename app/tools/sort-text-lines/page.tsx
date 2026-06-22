@@ -11,6 +11,7 @@ const displayDescription = "Free sort lines alphabetically, numerically, reverse
 export const metadata: Metadata = {
   title: "Free Sort Text Lines Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free sort text lines","sort text lines online","free sort text lines online","sort text lines tool","client-side sort text lines","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Sort Text Lines Online | 100% Private | ToolsAtZero",
     description: displayDescription,

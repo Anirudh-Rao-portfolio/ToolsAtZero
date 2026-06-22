@@ -11,6 +11,7 @@ const displayDescription = "Free minify and compact JS script code structures lo
 export const metadata: Metadata = {
   title: "Free JS Minifier Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free js minifier","js minifier online","free js minifier online","js minifier tool","client-side js minifier","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free JS Minifier Online | 100% Private | ToolsAtZero",
     description: displayDescription,

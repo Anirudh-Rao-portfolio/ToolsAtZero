@@ -11,6 +11,7 @@ const displayDescription = "Free format CSV files into clean JSON arrays locally
 export const metadata: Metadata = {
   title: "Free CSV to JSON Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free csv to json","csv to json online","free csv to json online","csv to json tool","client-side csv to json","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free CSV to JSON Online | 100% Private | ToolsAtZero",
     description: displayDescription,

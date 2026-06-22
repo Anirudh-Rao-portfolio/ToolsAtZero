@@ -11,6 +11,7 @@ const displayDescription = "Free convert comma-separated tables into Microsoft E
 export const metadata: Metadata = {
   title: "Free CSV to Excel Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free csv to excel","csv to excel online","free csv to excel online","csv to excel tool","client-side csv to excel","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free CSV to Excel Online | 100% Private | ToolsAtZero",
     description: displayDescription,

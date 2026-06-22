@@ -11,6 +11,7 @@ const displayDescription = "Free edit PDF properties like author, title, keyword
 export const metadata: Metadata = {
   title: "Free Edit Metadata Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free edit metadata","edit metadata online","free edit metadata online","edit metadata tool","client-side edit metadata","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Edit Metadata Online | 100% Private | ToolsAtZero",
     description: displayDescription,

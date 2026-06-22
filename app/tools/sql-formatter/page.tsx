@@ -11,6 +11,7 @@ const displayDescription = "Free beautify and indent SQL queries with custom ind
 export const metadata: Metadata = {
   title: "Free SQL Formatter Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free sql formatter","sql formatter online","free sql formatter online","sql formatter tool","client-side sql formatter","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free SQL Formatter Online | 100% Private | ToolsAtZero",
     description: displayDescription,

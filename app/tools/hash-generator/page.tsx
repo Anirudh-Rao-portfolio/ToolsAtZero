@@ -11,6 +11,7 @@ const displayDescription = "Free compute MD5, SHA-1, SHA-256, and SHA-512 hashes
 export const metadata: Metadata = {
   title: "Free Hash Generator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free hash generator","hash generator online","free hash generator online","hash generator tool","client-side hash generator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Hash Generator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

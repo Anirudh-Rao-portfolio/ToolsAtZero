@@ -11,6 +11,7 @@ const displayDescription = "Free add or subtract duration offsets from a startin
 export const metadata: Metadata = {
   title: "Free Add/Subtract Time Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free add/subtract time","add/subtract time online","free add/subtract time online","add/subtract time tool","client-side add/subtract time","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Add/Subtract Time Online | 100% Private | ToolsAtZero",
     description: displayDescription,

@@ -11,6 +11,7 @@ const displayDescription = "Free bulk generate cryptographically secure UUID v4 
 export const metadata: Metadata = {
   title: "Free UUID Generator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free uuid generator","uuid generator online","free uuid generator online","uuid generator tool","client-side uuid generator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free UUID Generator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

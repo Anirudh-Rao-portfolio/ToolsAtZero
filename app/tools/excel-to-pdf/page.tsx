@@ -11,6 +11,7 @@ const displayDescription = "Free format and export spreadsheet files (.xlsx/.csv
 export const metadata: Metadata = {
   title: "Free Excel to PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free excel to pdf","excel to pdf online","free excel to pdf online","excel to pdf tool","client-side excel to pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Excel to PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

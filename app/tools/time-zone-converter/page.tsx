@@ -11,6 +11,7 @@ const displayDescription = "Free convert date times across multiple regional glo
 export const metadata: Metadata = {
   title: "Free Time Zone Converter Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free time zone converter","time zone converter online","free time zone converter online","time zone converter tool","client-side time zone converter","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Time Zone Converter Online | 100% Private | ToolsAtZero",
     description: displayDescription,

@@ -11,6 +11,7 @@ const displayDescription = "Free beautify, validate, and minify JSON structures 
 export const metadata: Metadata = {
   title: "Free JSON Formatter & Validator Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free json formatter & validator","json formatter & validator online","free json formatter & validator online","json formatter & validator tool","client-side json formatter & validator","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free JSON Formatter & Validator Online | 100% Private | ToolsAtZero",
     description: displayDescription,

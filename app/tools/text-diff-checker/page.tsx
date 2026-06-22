@@ -11,6 +11,7 @@ const displayDescription = "Free compare text blocks side-by-side to highlight l
 export const metadata: Metadata = {
   title: "Free Text Diff Checker Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free text diff checker","text diff checker online","free text diff checker online","text diff checker tool","client-side text diff checker","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Text Diff Checker Online | 100% Private | ToolsAtZero",
     description: displayDescription,

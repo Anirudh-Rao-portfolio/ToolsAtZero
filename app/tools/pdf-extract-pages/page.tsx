@@ -11,6 +11,7 @@ const displayDescription = "Free isolate and save specific pages from your PDF f
 export const metadata: Metadata = {
   title: "Free Extract Specific Pages Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free extract specific pages","extract specific pages online","free extract specific pages online","extract specific pages tool","client-side extract specific pages","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Extract Specific Pages Online | 100% Private | ToolsAtZero",
     description: displayDescription,

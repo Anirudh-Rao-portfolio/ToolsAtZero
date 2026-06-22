@@ -11,6 +11,7 @@ const displayDescription = "Free convert XML data structures into clean JSON obj
 export const metadata: Metadata = {
   title: "Free XML to JSON Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free xml to json","xml to json online","free xml to json online","xml to json tool","client-side xml to json","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free XML to JSON Online | 100% Private | ToolsAtZero",
     description: displayDescription,

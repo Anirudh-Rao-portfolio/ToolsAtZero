@@ -11,6 +11,7 @@ const displayDescription = "Free encrypt and password-protect your PDF files 100
 export const metadata: Metadata = {
   title: "Free Protect PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free protect pdf","protect pdf online","free protect pdf online","protect pdf tool","client-side protect pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Protect PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

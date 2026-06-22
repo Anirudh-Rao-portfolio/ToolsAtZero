@@ -11,6 +11,7 @@ const displayDescription = "Free extract color hex, rgb, and hsl codes from load
 export const metadata: Metadata = {
   title: "Free Color Picker Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free color picker","color picker online","free color picker online","color picker tool","client-side color picker","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Color Picker Online | 100% Private | ToolsAtZero",
     description: displayDescription,

@@ -11,6 +11,7 @@ const displayDescription = "Free crop margins and adjust boundary coordinate box
 export const metadata: Metadata = {
   title: "Free Crop PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free crop pdf","crop pdf online","free crop pdf online","crop pdf tool","client-side crop pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Crop PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

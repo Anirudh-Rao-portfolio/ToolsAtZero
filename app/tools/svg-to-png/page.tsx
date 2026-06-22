@@ -11,6 +11,7 @@ const displayDescription = "Free rasterize vector SVG files into standard transp
 export const metadata: Metadata = {
   title: "Free SVG to PNG Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free svg to png","svg to png online","free svg to png online","svg to png tool","client-side svg to png","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free SVG to PNG Online | 100% Private | ToolsAtZero",
     description: displayDescription,

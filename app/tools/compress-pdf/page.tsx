@@ -11,6 +11,7 @@ const displayDescription = "Free reduce the file size of PDF documents while mai
 export const metadata: Metadata = {
   title: "Free Compress PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free compress pdf","compress pdf online","free compress pdf online","compress pdf tool","client-side compress pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Compress PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

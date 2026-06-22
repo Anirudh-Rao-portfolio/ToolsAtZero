@@ -11,6 +11,7 @@ const displayDescription = "Free convert Unix timestamps to local and UTC date f
 export const metadata: Metadata = {
   title: "Free Epoch Converter Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free epoch converter","epoch converter online","free epoch converter online","epoch converter tool","client-side epoch converter","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Epoch Converter Online | 100% Private | ToolsAtZero",
     description: displayDescription,

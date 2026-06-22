@@ -11,6 +11,7 @@ const displayDescription = "Free encode binary or text files into Base64 format 
 export const metadata: Metadata = {
   title: "Free Base64 Encoder/Decoder Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free base64 encoder/decoder","base64 encoder/decoder online","free base64 encoder/decoder online","base64 encoder/decoder tool","client-side base64 encoder/decoder","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Base64 Encoder/Decoder Online | 100% Private | ToolsAtZero",
     description: displayDescription,

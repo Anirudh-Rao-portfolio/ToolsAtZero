@@ -11,6 +11,7 @@ const displayDescription = "Free encode or decode URL parameters with percent en
 export const metadata: Metadata = {
   title: "Free URL Encoder/Decoder Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free url encoder/decoder","url encoder/decoder online","free url encoder/decoder online","url encoder/decoder tool","client-side url encoder/decoder","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free URL Encoder/Decoder Online | 100% Private | ToolsAtZero",
     description: displayDescription,

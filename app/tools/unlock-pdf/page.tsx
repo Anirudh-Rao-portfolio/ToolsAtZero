@@ -11,6 +11,7 @@ const displayDescription = "Free remove passwords and restriction blocks from PD
 export const metadata: Metadata = {
   title: "Free Unlock PDF Online | 100% Private | ToolsAtZero",
   description: displayDescription,
+  keywords: ["free unlock pdf","unlock pdf online","free unlock pdf online","unlock pdf tool","client-side unlock pdf","free online tools","privacy first","no upload","browser tool","ToolsAtZero"],
   openGraph: {
     title: "Free Unlock PDF Online | 100% Private | ToolsAtZero",
     description: displayDescription,

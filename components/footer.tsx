@@ -125,6 +125,9 @@ export function Footer() {
             <Link href="/" className="hover:text-foreground transition-colors">
               All Tools
             </Link>
+            <Link href="/faq" className="hover:text-foreground transition-colors">
+              FAQ
+            </Link>
             <Link href="/privacy-policy" className="hover:text-foreground transition-colors">
               Privacy
             </Link>

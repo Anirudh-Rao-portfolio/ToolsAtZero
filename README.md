@@ -71,4 +71,8 @@ Want to run the entire 102-tool suite on your local machine?
 1. **Clone the repository:**
 ```bash
    git clone [https://github.com/yourusername/toolsatzero.com.git](https://github.com/yourusername/toolsatzero.com.git)
+<<<<<<< HEAD
    cd toolsatzero.com
+=======
+   cd toolsatzero.com
+>>>>>>> 823401d1e6b4c2298323ef67bb714b1fead977ac

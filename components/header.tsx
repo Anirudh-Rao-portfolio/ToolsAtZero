@@ -49,6 +49,9 @@ export function Header() {
               <Link href="/#tools" className="px-4 text-xs font-mono uppercase font-bold text-foreground hover:bg-accent h-14 flex items-center transition-colors border-l border-black">
                 Text Suite
               </Link>
+              <Link href="/#calculators" className="px-4 text-xs font-mono uppercase font-bold text-foreground hover:bg-accent h-14 flex items-center transition-colors border-l border-black">
+                Calculators
+              </Link>
             </div>
           </nav>
 
@@ -116,6 +119,11 @@ export function Header() {
                 <li>
                   <Link href="/#tools" onClick={() => setDrawerOpen(false)} className="block hover:bg-accent p-2 border border-transparent hover:border-black transition-all">
                     Time Tools
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#calculators" onClick={() => setDrawerOpen(false)} className="block hover:bg-accent p-2 border border-transparent hover:border-black transition-all">
+                    Calculators
                   </Link>
                 </li>
               </ul>

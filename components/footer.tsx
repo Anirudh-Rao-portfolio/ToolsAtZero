@@ -17,7 +17,7 @@ export function Footer() {
         {/* Dynamic section based on path */}
         {pathname === "/" ? (
           /* Condition A: Homepage link columns across all 6 categories */
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 pb-12 border-b border-black">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-8 pb-12 border-b border-black">
             <div>
               <h4 className="font-mono text-xs font-bold uppercase mb-4 border-b border-black pb-1">Free Online PDF Tools</h4>
               <ul className="space-y-2 font-mono text-[11px] text-muted-foreground">
@@ -77,6 +77,16 @@ export function Footer() {
                 <li><Link href="/tools/time-calculator" className="hover:underline hover:text-foreground">Free Time Calculator</Link></li>
               </ul>
             </div>
+            <div>
+              <h4 className="font-mono text-xs font-bold uppercase mb-4 border-b border-black pb-1">Free Calculators</h4>
+              <ul className="space-y-2 font-mono text-[11px] text-muted-foreground">
+                <li><Link href="/tools/gst-calculator" className="hover:underline hover:text-foreground">Free GST Calculator</Link></li>
+                <li><Link href="/tools/emi-calculator" className="hover:underline hover:text-foreground">Free EMI Calculator</Link></li>
+                <li><Link href="/tools/sip-calculator" className="hover:underline hover:text-foreground">Free SIP Calculator</Link></li>
+                <li><Link href="/tools/scientific-calculator" className="hover:underline hover:text-foreground">Free Scientific</Link></li>
+                <li><Link href="/tools/bmi-calculator" className="hover:underline hover:text-foreground">Free BMI Calculator</Link></li>
+              </ul>
+            </div>
           </div>
         ) : currentTool ? (
           /* Condition B: Sibling tools loop for active category */
@@ -121,9 +131,15 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-muted-foreground">
+          <div className="flex flex-wrap items-center gap-6 text-sm font-mono text-muted-foreground">
             <Link href="/" className="hover:text-foreground transition-colors">
               All Tools
+            </Link>
+            <Link href="/compare" className="hover:text-foreground transition-colors">
+              Compare
+            </Link>
+            <Link href="/guides" className="hover:text-foreground transition-colors">
+              Guides
             </Link>
             <Link href="/faq" className="hover:text-foreground transition-colors">
               FAQ

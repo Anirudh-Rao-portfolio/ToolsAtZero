@@ -3,6 +3,7 @@ import { tools } from "@/lib/tools";
 import { ArrowRight, Lock, Sparkles, Cpu, ShieldCheck } from "lucide-react";
 import type { Metadata } from "next";
 import { Logo } from "@/components/logo";
+import { getCategoryByKey, getCategoryBySlug } from "@/modules/categories/category.config";
 
 export const metadata: Metadata = {
   title: "ToolsAtZero | 100+ Free Developer & Office Tools | 100% Client-Side",
@@ -18,6 +19,7 @@ export default function HomePage() {
   const imageTools = activeTools.filter((t) => t.category === "image");
   const webTools = activeTools.filter((t) => t.category === "web");
   const timeTools = activeTools.filter((t) => t.category === "time");
+  const calculatorTools = activeTools.filter((t) => t.category === "calculator");
 
   const categories = [
     { slug: "pdf", title: "Free PDF Suite", count: pdfTools.length, list: pdfTools },
@@ -26,6 +28,7 @@ export default function HomePage() {
     { slug: "image", title: "Free Image Tools", count: imageTools.length, list: imageTools },
     { slug: "web", title: "Free Web Tools", count: webTools.length, list: webTools },
     { slug: "time", title: "Free Time Tools", count: timeTools.length, list: timeTools },
+    { slug: "calculators", title: "Free Calculators", count: calculatorTools.length, list: calculatorTools },
   ];
 
   return (
@@ -51,6 +54,9 @@ export default function HomePage() {
           <div className="mt-10 flex flex-wrap items-center justify-center md:justify-start gap-4">
             <Link href="#tools" className="btn-primary">
               Launch Workbench
+            </Link>
+            <Link href="/guides" className="btn-secondary">
+              Read Guides
             </Link>
           </div>
         </div>
@@ -128,16 +134,35 @@ export default function HomePage() {
           ════════════════════════════════════════ */}
       <section id="tools" className="px-6 md:px-12 lg:px-24 space-y-24">
         <div className="max-w-6xl mx-auto space-y-20">
-          {categories.map((cat) => (
-            <div key={cat.slug} className="space-y-6">
-              <div className="flex items-center justify-between border-b border-black pb-4">
-                <h2 className="font-editorial text-3xl sm:text-4xl font-bold uppercase tracking-tight">
-                  {cat.title}
-                </h2>
-                <span className="neon-badge px-3 py-1 text-xs">
-                  {cat.count} TOOLS
-                </span>
-              </div>
+          {categories.map((cat) => {
+            const catConfig = getCategoryByKey(cat.slug) || getCategoryBySlug(cat.slug);
+            const targetHref = catConfig ? `/${catConfig.slug}` : "/";
+            return (
+              <div key={cat.slug} id={cat.slug} className="space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-black pb-4 gap-2">
+                  <div className="flex items-baseline gap-4">
+                    <h2 className="font-editorial text-3xl sm:text-4xl font-bold uppercase tracking-tight">
+                      {cat.title}
+                    </h2>
+                    <Link
+                      href={targetHref}
+                      className="font-mono text-xs uppercase font-bold hover:underline text-muted-foreground hover:text-black shrink-0 hidden sm:inline"
+                    >
+                      Explore All {cat.title} →
+                    </Link>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Link
+                      href={targetHref}
+                      className="font-mono text-xs uppercase font-bold hover:underline text-muted-foreground hover:text-black shrink-0 sm:hidden"
+                    >
+                      Explore All →
+                    </Link>
+                    <span className="neon-badge px-3 py-1 text-xs">
+                      {cat.count} TOOLS
+                    </span>
+                  </div>
+                </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0 border-t border-l border-black bg-background">
                 {cat.list.map((tool) => {
@@ -174,7 +199,8 @@ export default function HomePage() {
                 })}
               </div>
             </div>
-          ))}
+          );
+        })}
         </div>
       </section>
     </main>

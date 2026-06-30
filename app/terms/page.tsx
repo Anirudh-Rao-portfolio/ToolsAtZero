@@ -29,7 +29,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="font-mono text-xs text-muted-foreground uppercase">
-            Last Updated: June 23, 2026 | Document Reference: TA-TERMS-2026-V2
+            Last Updated: June 30, 2026 | Document Reference: TA-TERMS-2026-V3
           </p>
         </div>
 
@@ -59,10 +59,10 @@ export default function TermsPage() {
               <Layers className="w-6 h-6" /> Description of Services
             </h2>
             <p>
-              ToolsAtZero offers an array of developer, document, writing, productivity, and media utilities.
+              ToolsAtZero provides an array of 102 developer, document, writing, productivity, and media utilities alongside an interactive Knowledge Hub containing format comparisons, learning paths, and step-by-step guides.
             </p>
             <p>
-              Individual tools may have separate parameters, execution runtimes, file type support, or performance thresholds depending on their underlying technology and model specifications.
+              Individual tools and guides may have separate parameters, execution runtimes, file type support, or performance thresholds depending on their underlying technology and specifications.
             </p>
           </section>
 
@@ -72,7 +72,7 @@ export default function TermsPage() {
               <Scale className="w-6 h-6" /> Local Processing Boundaries
             </h2>
             <p>
-              Most tools execute their calculations, text generations, image filters, and conversions locally within your web browser's sandboxed environment. Runtimes, memory capacity, and processing constraints depend entirely on your hardware configuration, CPU/GPU capabilities, and browser allocation limits.
+              All 102 tools execute calculations, format transformations, image filters, and text processing locally within your web browser's sandboxed environment. Runtimes, memory capacity, and processing constraints depend entirely on your hardware configuration, CPU/GPU capabilities, and browser allocation limits.
             </p>
           </section>
 
@@ -82,7 +82,7 @@ export default function TermsPage() {
               <Layers className="w-6 h-6" /> Cloud-Based Services
             </h2>
             <p>
-              We may offer cloud-based features, external server endpoints, or API integrations. Tools relying on cloud execution will transmit the required input to remote servers for processing. The system will clearly identify these cloud features before you submit data.
+              Every tool currently available on ToolsAtZero operates 100% locally. While the platform operates strictly client-side today, if any future advanced features require cloud execution, they will clearly identify these cloud requirements before you select or submit any data.
             </p>
           </section>
 

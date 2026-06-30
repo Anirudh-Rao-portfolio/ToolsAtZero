@@ -29,14 +29,14 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="font-mono text-xs text-muted-foreground uppercase">
-            Last Updated: June 23, 2026 | Document Reference: TA-PRIV-2026-V2
+            Last Updated: June 30, 2026 | Document Reference: TA-PRIV-2026-V3
           </p>
         </div>
 
         {/* Giant Yellow Banner */}
         <div className="bg-accent border-2 border-black p-6 sm:p-8 text-black mb-12 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
           <p className="font-mono text-sm sm:text-base font-black uppercase tracking-wider leading-relaxed">
-            🔒 PRIVACY-FIRST OPERATION: Most tools process your data entirely within your browser's sandboxed environment. Your files and input do not touch our servers.
+            🔒 PRIVACY-FIRST OPERATION: All 102 tools run 100% locally inside your browser's sandboxed environment. Your files and input do not touch our servers.
           </p>
         </div>
 
@@ -49,10 +49,10 @@ export default function PrivacyPolicyPage() {
               <ServerOff className="w-6 h-6" /> Local Processing
             </h2>
             <p>
-              ToolsAtZero is designed to prioritize client-side execution. Except where explicitly disclosed, files and text strings you input (including PDFs, audio files, images, code snippets, and general text blocks) are processed locally inside your browser's sandboxed memory frame.
+              ToolsAtZero is designed for absolute client-side execution. All 102 production tools (including PDF utilities, image compressors, code formatters, and time zone calculators) process files and input data entirely inside your browser's sandboxed memory frame (RAM).
             </p>
             <p>
-              Under this architecture, your input data remains loaded in temporary memory (RAM) and is terminated when you close the active browser tab.
+              Under this architecture, your input documents, keys, text payloads, and images never leave your local device. All processed data is purged automatically from transient RAM when you close the active browser tab.
             </p>
           </section>
 
@@ -62,10 +62,7 @@ export default function PrivacyPolicyPage() {
               <Database className="w-6 h-6" /> Cloud Processing & APIs
             </h2>
             <p>
-              While our current suite operates primarily client-side, we may introduce cloud-based tools, external API endpoints, or premium server-side AI processing options in the future.
-            </p>
-            <p>
-              If a specific tool requires cloud transmission, external server resources, or third-party AI APIs, the application interface will clearly disclose this requirement before you submit any information for processing.
+              Every active utility on ToolsAtZero operates 100% offline once the page assets are loaded. While the platform operates strictly client-side today, if any future advanced features require cloud computation or external API connections, those tools will feature prominent warnings prior to any file selection or submission.
             </p>
           </section>
 

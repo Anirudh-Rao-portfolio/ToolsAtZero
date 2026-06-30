@@ -65,11 +65,11 @@ export interface Tool {
   icon: LucideIcon;
   href: string;
   isReady: boolean;
-  category: "pdf" | "developer" | "office" | "image" | "web" | "time";
+  category: "pdf" | "developer" | "office" | "image" | "web" | "time" | "calculator";
   targetSeoString: string;
 }
 
-export const tools: Tool[] = [
+const initialTools: Tool[] = [
   // ── 1. PDF SUITE (16 Tools) ──
   {
     slug: "protect-pdf",
@@ -1428,5 +1428,28 @@ export const tools: Tool[] = [
 
 ];
 
+import { calculatorList } from "@/modules/calculators/calculator.config";
+import * as LucideIcons from "lucide-react";
+
+const mappedCalculators: Tool[] = calculatorList.map((c) => {
+  const IconComponent = (LucideIcons as any)[c.icon] || LucideIcons.Calculator;
+  return {
+    slug: c.slug,
+    name: c.title,
+    targetSeoString: `Free ${c.title} Online | 100% Private | ToolsAtZero`,
+    shortName: c.shortTitle,
+    description: c.description,
+    tagline: c.description,
+    keywords: c.keywords,
+    icon: IconComponent,
+    href: `/tools/${c.slug}`,
+    isReady: true,
+    category: "calculator" as const,
+  };
+});
+
+export const tools: Tool[] = [...initialTools, ...mappedCalculators];
+
 export const readyTools = tools.filter((t) => t.isReady);
 export const comingSoonTools = tools.filter((t) => !t.isReady);
+

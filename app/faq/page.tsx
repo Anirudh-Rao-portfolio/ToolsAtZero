@@ -17,7 +17,7 @@ const FAQ_ITEMS: FAQItem[] = [
   {
     question: "What is ToolsAtZero?",
     answer:
-      "ToolsAtZero is a free, 100% client-side tools platform that runs entirely inside your browser. We offer 52+ active production tools across six categories — PDF, Developer, Office/Text, Image, Web, and Time — covering everything from JSON formatting and Base64 encoding to PDF merging, image conversion, and time zone calculations. Zero cost, zero server uploads, zero accounts required.",
+      "ToolsAtZero is a free, 100% client-side tools platform that runs entirely inside your browser. We offer 102 production-ready browser-based tools across categories like PDF, Developer, Office/Text, Image, Web, and Time. The platform features an extensive Knowledge Hub, topic clusters, and side-by-side format comparisons (e.g., PNG vs JPG, CSV vs Excel) to help users make informed technical decisions. Zero cost, zero server uploads, and zero accounts required.",
   },
   {
     question: "How does local/client-side processing work?",
@@ -230,7 +230,7 @@ export default function FAQPage() {
           {/* Giant Yellow Banner */}
           <div className="bg-accent border-2 border-black p-6 sm:p-8 text-black mb-12 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
             <p className="font-mono text-sm sm:text-base font-black uppercase tracking-wider leading-relaxed">
-              🛡️ ZERO-UPLOAD ARCHITECTURE: All 52+ tools run 100% inside your
+              🛡️ ZERO-UPLOAD ARCHITECTURE: All 102 tools run 100% inside your
               browser. No files are uploaded. No accounts required. No data
               harvesting. Just tools that work.
             </p>

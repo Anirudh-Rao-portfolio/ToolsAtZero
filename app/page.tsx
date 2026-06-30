@@ -8,7 +8,25 @@ import { getCategoryByKey, getCategoryBySlug } from "@/modules/categories/catego
 export const metadata: Metadata = {
   title: "ToolsAtZero | 100+ Free Developer & Office Tools | 100% Client-Side",
   description:
-    "The ultimate free web toolkit. JSON formatters, Base64 encoders, and PDF tools. No sign-ups, no server uploads, zero friction. All processing runs in your browser memory.",
+    "100+ free online PDF, image, text, developer, calculator, and AI tools. Browser-based, privacy-first, no uploads, no sign-up required.",
+  alternates: {
+    canonical: "https://toolsatzero.com",
+  },
+  openGraph: {
+    title: "ToolsAtZero | 100+ Free Developer & Office Tools | 100% Client-Side",
+    description:
+      "100+ free online PDF, image, text, developer, calculator, and AI tools. Browser-based, privacy-first, no uploads, no sign-up required.",
+    url: "https://toolsatzero.com",
+    siteName: "ToolsAtZero",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ToolsAtZero | 100+ Free Developer & Office Tools | 100% Client-Side",
+    description:
+      "100+ free online PDF, image, text, developer, calculator, and AI tools. Browser-based, privacy-first, no uploads, no sign-up required.",
+  },
 };
 
 export default function HomePage() {

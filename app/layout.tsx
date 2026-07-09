@@ -47,6 +47,9 @@ export const metadata: Metadata = {
     "ToolsAtZero",
   ],
   metadataBase: new URL("https://toolsatzero.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
